@@ -1,0 +1,26 @@
+# ---------------------------
+# 🎯 Core Quantum Stack
+# ---------------------------
+numpy>=2.0.0               # Scientific computing & linear algebra
+matplotlib>=3.9.0          # Visualization (state prep, Bloch sphere, results)
+jupyter>=1.0.0             # Interactive notebooks
+pytest>=8.0.0              # Testing framework
+
+# ---------------------------
+# ⚛️ Quantum Compilers & Simulators (Optional)
+# Uncomment if you want to compare with established frameworks
+# ---------------------------
+
+
+# ---------------------------
+# 📊 Jupyter Kernel (for notebooks)
+# ---------------------------
+jupyter_client>=8.0.0
+jupyter_core>=5.0.0
+ipykernel>=6.0.0           # IPython kernel for Jupyter
+
+# ---------------------------
+# ⚙️ Development & Utilities
+# ---------------------------
+pre-commit>=3.0.0          # Pre-commit hooks (linting, formatting)
+ruff>=0.2.0                # Fast Python linter (optional alternative to flake8)
